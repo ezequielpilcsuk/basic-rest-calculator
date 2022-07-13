@@ -14,7 +14,8 @@ func home(context *gin.Context) {
 			"The supported operations are add, sub, mul, div\n" +
 			"Query examples:\n" +
 			"\tlocalhost:9091/calculate?operation=add&value1=1&value2=9\t Result: 1 + 9 = 10\n" +
-			"\tlocalhost:9091/calculate?operation=mul&value1=1&value2=-3\t Result: 1 * (-3) = -3"
+			"\tlocalhost:9091/calculate?operation=mul&value1=1&value2=-3\t Result: 1 * (-3) = -3\n" +
+			"You can also create a request using terminal\n"
 
 	context.String(http.StatusOK, message)
 }
