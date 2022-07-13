@@ -11,4 +11,5 @@ Request Examples:
 
 # Usage
 * go get github.com/gin-gonic/gin
-* go run main.go
+* go run server/server.go
+* go run client/client.go
